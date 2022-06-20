@@ -257,12 +257,17 @@
         flex-wrap: wrap;
     }
 
+    .section-title {
+        font-size: 2rem;
+        /* border-bottom: 1px black solid; */
+    }
+
     .card-title {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .card-text {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .card-body hr {
@@ -273,8 +278,12 @@
         display: none;
     }
 
-    .section-title {
-        font-size: 1.4rem;
-        /* border-bottom: 1px black solid; */
+    .about-flex {
+        flex-wrap: wrap;
+    }
+
+    .goback-Btn {
+        bottom: 30px;
+        right: 50px;
     }
 }
