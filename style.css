@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* border: 1px black solid; */
 }
 
 
@@ -11,7 +12,7 @@
 
 .n-border {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    background: url(./img/about.jpg);
+    background: whitesmoke;
     /* 導覽列覆蓋其他元素 */
     background-size: cover;
 }
@@ -27,8 +28,7 @@
 }
 
 .bg {
-    background-image:
-        url("./img/about.jpg");
+    background-color: whitesmoke;
     /* 背景延展 */
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 .profile {
     max-width: 30%;
     min-width: 150px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     transition: all 1s ease;
     display: block;
     margin: auto;
@@ -233,7 +233,6 @@
 .footer-end {
     position: absolute;
     bottom: 0%;
-    color: black;
 }
 
 @media screen and (max-width:768px) {
@@ -258,4 +257,24 @@
         flex-wrap: wrap;
     }
 
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    .card-text {
+        font-size: 0.7rem;
+    }
+
+    .card-body hr {
+        display: none;
+    }
+
+    .disapear {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+        /* border-bottom: 1px black solid; */
+    }
 }

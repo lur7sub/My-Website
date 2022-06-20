@@ -19,10 +19,8 @@ let TW = {
         loop: false
     })
 }
-TW.typewriter.typeString('<strong><span style="color: #27ae60;">Hello, I am Bob</span></strong>')
+TW.typewriter.typeString('<strong><span style="color: #27ae60;">嗨，我是呂學奇。</span></strong>')
 .pauseFor(1000)
-.deleteAll()
-.typeString('<strong><span style="color: #27ae60;">你好，我是呂學奇</span></strong>')
 .start();
 
 
